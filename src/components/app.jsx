@@ -1,11 +1,12 @@
 import React, {Component}  from 'react';
-import VideosItems from './videositems.jsx';
+import PalabraSemana from './palabrasemana.jsx';
 
 class App extends Component {
 	render() {
+		const primos = ['Virginia', 'Felipe', 'Santiago' ]
 		return(
 			<div>
-				<VideosItems imageSrc='https://source.unsplash.com/collection/356862/' />
+				<PalabraSemana imageSrc='https://source.unsplash.com/collection/356862/' />
 			</div>
 		)
 	}

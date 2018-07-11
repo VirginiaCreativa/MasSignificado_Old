@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import video_item from './../style/_videositems.scss'
+import palabrasemana_style from './../style/_palabrasemana.scss'
 import PropTypes from"prop-types";
 
 class VideosItems extends Component {
@@ -23,7 +23,7 @@ class VideosItems extends Component {
       const { title, abrev, definition } = this.state;
 
       return (
-         <div className='video_item'>
+         <div className='palabrasemana'>
          	<a href='' onMouseOver={this.handleClick} >
                <div class="imagen">
                   <div class='img-hover'><i class="fas fa-play"></i></div>
