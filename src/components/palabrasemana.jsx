@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import palabrasemana_style from './../style/_palabrasemana.scss'
 import PropTypes from"prop-types";
 
-class VideosItems extends Component {
+class PalabraSemana extends Component {
 
    state = {
       definition: 'Acordar, pactar, decidir conjuntamente',
@@ -23,28 +23,28 @@ class VideosItems extends Component {
       const { title, abrev, definition } = this.state;
 
       return (
-         <div className='palabrasemana'>
-         	<a href='' onMouseOver={this.handleClick} >
-               <div class="imagen">
-                  <div class='img-hover'><i class="fas fa-play"></i></div>
-   	            <img src={imageSrc} class="img-fluid" alt={title} />
-               </div>
-               <article>
-   	            <h6>{title}</h6>
-   	            <p><span class="abrev">{abrev}.</span> {definition}</p>
-               </article>
-         	</a>
-         </div>
+      <div className='palabrasemana'>
+      	<a href='' onMouseOver={this.handleClick} >
+        <div className="imagen">
+          <div className='img-hover'><i className="fas fa-play"></i></div>
+          <img src={imageSrc} className="img-fluid" alt={title} />
+        </div>
+        <article>
+          <h6>{title}</h6>
+          <p><span className="abrev">{abrev}.</span> {definition}</p>
+        </article>
+      	</a>
+      </div>
       );
 
    }
 }
 
-VideosItems.propTypes = {
+PalabraSemana.propTypes = {
   title: PropTypes.string,
   definition: PropTypes.string,
   imageSrc: PropTypes.string,
   abrev: PropTypes.oneOf(['tr', 'adj', 'deter', 'f', 'm', 'prnl', 'pron', 'subj', 'prep', 'irreg', 'intr'])
 };
 
-export default VideosItems;
+export default PalabraSemana;
