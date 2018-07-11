@@ -3,6 +3,11 @@ import palabrasemana_style from './../style/_palabrasemana.scss'
 import PropTypes from"prop-types";
 
 class PalabraSemana extends Component {
+  
+  constructor(props)  {
+    super(props)
+    this.handleClick = this.handleClick.bind(this);
+  }
 
    state = {
       definition: 'Acordar, pactar, decidir conjuntamente',
@@ -11,9 +16,10 @@ class PalabraSemana extends Component {
    }
 
    handleClick = (ev) => {
-      console.log(`this is: ${this.props.title} + ${this.props.imageSrc}` );
+      console.log(`this is: ${this.state.title} + ${this.props.imageSrc}` );
       this.setState({
         definition: 'Concordar o combinar una cosa con otra',
+        title: 'Otra palabra',
         abrev: 'intr'
       })
    } 
@@ -25,14 +31,14 @@ class PalabraSemana extends Component {
       return (
       <div className='palabrasemana'>
       	<a href='' onMouseOver={this.handleClick} >
-        <div className="imagen">
-          <div className='img-hover'><i className="fas fa-play"></i></div>
-          <img src={imageSrc} className="img-fluid" alt={title} />
-        </div>
-        <article>
-          <h6>{title}</h6>
-          <p><span className="abrev">{abrev}.</span> {definition}</p>
-        </article>
+          <div className="imagen">
+            <div className='img-hover'><i className="fas fa-play"></i></div>
+            <img src={imageSrc} className="img-fluid" alt={title} />
+          </div>
+          <article>
+            <h6>{title}</h6>
+            <p><span className="abrev">{abrev}.</span> {definition}</p>
+          </article>
       	</a>
       </div>
       );
