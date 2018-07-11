@@ -1,1 +1,2 @@
-# Proyect Mas Significado en ReactJS
+# Más Significado
+Practicas React de Platzi

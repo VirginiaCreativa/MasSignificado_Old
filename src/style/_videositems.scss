@@ -1,0 +1,60 @@
+.video_item {
+	a {
+		&:hover {
+			.imagen {
+				.img-hover {
+					opacity: 0.5;
+				}
+			}
+			article {
+				h6 {
+					color: #ff5252;
+				}
+			}
+		}
+	}
+	width: 260px;
+	.imagen {
+		overflow: hidden;
+		height: 146px;
+	    position: relative;
+	    margin-bottom: 6px;
+	    background-color: red;
+	    .img-hover {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: #000;
+			opacity: 0;
+			-webkit-transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out;
+			.fa-play {
+				font-size: 40px;
+			}
+	    }
+		img {
+			width: 100%;
+    		height: auto;
+		}
+	}
+	article {
+		text-align: center;
+		h6 {
+			color: var(--dark);
+			font-weight: 700;
+		}
+		p {
+			color: var(--gray);
+			.abrev {
+				background-color: #ddd;
+				font-weight: 700;
+				padding: 1px 2px;
+				border-radius: 2px;
+				margin-right: 4px;
+			} 
+		}
+	}
+
+}
