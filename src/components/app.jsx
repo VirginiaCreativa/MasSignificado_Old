@@ -8,7 +8,11 @@ class App extends Component {
 		const primos = ['Virginia', 'Felipe', 'Santiago' ]
 		return(
 			<div>
-				<Main data={DataMain}/>
+				<div id="wrap-content">
+					<div className="container">
+						<Main data={DataMain}/>
+					</div>
+				</div>
 			</div>
 		)
 	}

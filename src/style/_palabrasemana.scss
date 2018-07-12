@@ -1,60 +1,66 @@
+
 .palabrasemana {
+	width : 260px;
 	a {
 		&:hover {
 			.imagen {
 				.img-hover {
-					opacity: 0.5;
+					opacity : 0.5;
 				}
 			}
 			article {
 				h6 {
-					color: #ff5252;
+					color : #ff5252;
 				}
 			}
 		}
 	}
-	width: 260px;
 	.imagen {
-		overflow: hidden;
-		height: 146px;
-	    position: relative;
-	    margin-bottom: 6px;
-	    background-color: red;
-	    .img-hover {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			background-color: #000;
-			opacity: 0;
-			-webkit-transition: all 0.3s ease-in-out;
-			transition: all 0.3s ease-in-out;
+		position      : relative;
+		overflow      : hidden;
+		height        : 146px;
+		margin-bottom : 14px;
+		border-radius : 4px;
+		box-shadow    : 0 10px 40px -6px rgba(39, 57, 113, 0.2);
+		.img-hover {
+			position           : absolute;
+			top                : 0;
+			left               : 0;
+			height             : 100%;
+			width              : 100%;
+			opacity            : 0;
+			background-color   : #000;
+			-webkit-transition : all 0.3s ease-in-out;
+			transition         : all 0.3s ease-in-out;
 			.fa-play {
-				font-size: 40px;
+				font-size : 40px;
 			}
-	    }
+		}
 		img {
-			width: 100%;
-    		height: auto;
+			position : relative;
+			top      : 50px;
+			height   : auto;
+			width    : 100%;
 		}
 	}
 	article {
-		text-align: center;
+		height      : auto;
+		text-align  : center;
+		white-space : pre-line;
 		h6 {
-			color: var(--dark);
-			font-weight: 700;
+			font-weight : 700;
+			color       : var(--dark);
 		}
 		p {
-			color: var(--gray);
+			color : var(--gray);
 			.abrev {
-				background-color: #ddd;
-				font-weight: 700;
-				padding: 1px 2px;
-				border-radius: 2px;
-				margin-right: 4px;
-			} 
+				margin-right     : 4px;
+				padding          : 1px 2px;
+				background-color : #ddd;
+				font-size        : 11px;
+				font-weight      : 700;
+				border-radius    : 2px;
+			}
 		}
 	}
-
 }

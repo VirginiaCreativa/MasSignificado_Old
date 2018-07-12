@@ -11,16 +11,16 @@ export class Main extends Component {
 
 		return (
 			<div>
-				<div className="title_main">
+				<div className="title_heading">
 					<h6>{mainSubtitle_PalabraSemana}</h6>
-					<h1>{mainTitle_PalabraSemana}</h1>
+					<h3>{mainTitle_PalabraSemana}</h3>
 				</div>
-				<div className="box_PalabraSemana">
-					{
-						palabras.map((item, id) => {
-							return <PalabraSemana key={item.id} {...item}/>
-						})
-					}
+				<div className="box_items">
+						{
+							palabras.map((item, id) => {
+								return <PalabraSemana key={item.id} {...item}/>
+							})
+						}
 				</div>
 			</div>
 		);

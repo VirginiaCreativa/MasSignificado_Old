@@ -1,8 +1,34 @@
+
 /*==================== HEADER ====================*/
-
-/*==================== videositems ====================*/
-
+/*==================== WRAP CONTENT ====================*/
+/*==================== GENERAL ====================*/
 /*==================== MAIN ====================*/
-
+.title_heading {
+	position : relative;
+	margin   : 20px 0;
+	h6 {
+		font-size   : 13px;
+		font-weight : 600;
+		color       : $gray_light;
+		
+	}
+	h3 {
+		position       : relative;
+		vertical-align : middle;
+		overflow       : hidden;
+		font-weight    : 700;
+		letter-spacing : -1px;
+	}
+	* {
+		margin : 0;
+	}
+}
+.box_items {
+	display               : grid;
+	overflow-x            : scroll;
+	white-space           : nowrap;
+	grid-column-gap       : 20px;
+	grid-template-columns : repeat(6, 1fr);
+	scroll-direction      : horizontal;
+}
 /*==================== FOOTER ====================*/
-

@@ -9,14 +9,17 @@ class PalabraSemana extends Component {
   }
    render() {
 
-      const { title, abrev, definition, imageSrc } = this.props;
+      const { title, abrev, definition, imageSrc, topImage } = this.props;
+      const sizeTopImage = {
+        top: topImage + 'px'
+      }
 
       return (
       <div className='palabrasemana'>
       	<a href='' onMouseOver={this.handleClick} >
           <div className="imagen">
             <div className='img-hover'><i className="fas fa-play"></i></div>
-            <img src={imageSrc} className="img-fluid" alt={title} />
+            <img src={imageSrc} className="img-fluid" alt={title} style={sizeTopImage}/>
           </div>
           <article>
             <h6>{title}</h6>

@@ -1,11 +1,16 @@
+
 body {
-	font-family: 'Lato', sans-serif;
+	font-family : 'Open Sans', sans-serif;
+	color       : $gray_dark;
 }
 a {
 	&:hover {
-		text-decoration: none !important;
+		text-decoration : none !important;
 	}
 }
-p {
-	font-size: 0.8125rem !important;
+h1, h2, h3, h4, h5, h6 {
+	color : $blue_dark;
+}
+p, a, li {
+	font-size : 0.8125rem !important;
 }
