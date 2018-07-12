@@ -7,20 +7,18 @@
 	position : relative;
 	margin   : 20px 0;
 	h6 {
-		font-size   : 13px;
-		font-weight : 600;
-		color       : $gray_light;
+		margin-bottom : 4px;
+		font-size     : 13px;
+		font-weight   : 400;
+		color         : $gray_light;
 		
 	}
 	h3 {
 		position       : relative;
 		vertical-align : middle;
 		overflow       : hidden;
-		font-weight    : 700;
+		margin-bottom  : 0;
 		letter-spacing : -1px;
-	}
-	* {
-		margin : 0;
 	}
 }
 .box_items {

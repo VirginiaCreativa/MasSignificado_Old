@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import palabrasemana_style from './../style/_palabrasemana.scss'
 import PropTypes from"prop-types";
 
 class PalabraSemana extends Component {
