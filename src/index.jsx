@@ -4,4 +4,4 @@ import App from './components/app.jsx'
 
 const appMain = document.getElementById('app');
 
-render(<App name='Virginia'/>, appMain);
+render(<App/>, appMain);

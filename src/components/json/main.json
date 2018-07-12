@@ -1,0 +1,125 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "description": "Lo mejor de la semana",
+      "title": "Palabra de la semana",
+      "palabra": [
+        {
+          "title": "Transformar",
+          "definition": "Hacer cambiar de forma o aspecto.",
+          "abrev": "tr y prnl",
+          "imageSrc": "https://image.shutterstock.com/z/stock-vector-logo-coaching-development-icon-personal-growth-training-square-turns-into-circle-vector-699872635.jpg",
+          "link": "http://www.wordreference.com/definicion/transformar",
+          "id": 1
+        },
+        {
+          "title": "Concentrar",
+          "definition": "Reflexionar profundamente, fijar la atención o el pensamiento en algo.",
+          "abrev": "prnl",
+          "imageSrc": "https://image.shutterstock.com/z/stock-vector-mental-concentration-icon-line-symbol-isolated-vector-illustration-of-icon-sign-concept-for-your-1053768944.jpg",
+          "link": "http://www.wordreference.com/definicion/concentrar",
+          "id": 2
+        },
+        {
+          "title": "Echar",
+          "definition": "Hacer que algo llegue a alguna parte dándole impulso.",
+          "abrev": "tr",
+          "imageSrc": "https://image.shutterstock.com/z/stock-vector-a-man-in-a-business-suit-throws-a-basketball-into-the-ring-located-on-the-opposite-side-of-the-1030435141.jpg",
+          "link": "http://www.wordreference.com/definicion/echar",
+          "id": 3
+        },
+        {
+          "title": "Descubrir",
+          "definition": "Encontrar, hallar algo desconocido.",
+          "abrev": "tr",
+          "imageSrc": "https://image.shutterstock.com/z/stock-vector-suit-man-looking-telescope-and-businessman-with-a-magnifying-glass-vision-success-concept-704411728.jpg",
+          "link": "http://www.wordreference.com/definicion/descubrir",
+          "id": 4
+        },
+        {
+          "title": "Racional",
+          "definition": "De la razón o relativo a ella.",
+          "abrev": "adj",
+          "imageSrc": "https://image.shutterstock.com/z/stock-vector-businessman-seeing-something-from-a-rational-perspective-vector-illustration-eps-file-global-345282635.jpg",
+          "link": "http://www.wordreference.com/definicion/descubrirhttp://www.wordreference.com/definicion/racional",
+          "id": 5
+        },
+        {
+          "title": "Mantener",
+          "definition": "Conservar una cosa en su ser o estado.",
+          "abrev": "tr",
+          "imageSrc": "https://image.shutterstock.com/z/stock-vector-restriction-sign-set-forbidden-entry-stop-private-property-video-surveillance-keep-away-500739076.jpg",
+          "link": "http://www.wordreference.com/definicion/Mantener",
+          "id": 6
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Lo mejor para concentrarte",
+      "title": "Ejemplo de Gramática",
+      "ejemplogramatica": [
+        {
+          "incorrect": "Los niños juegan en la calle ayer.",
+          "correct": "Los niños jugaban ayer en la calle.",
+          "id": 1
+        },
+        {
+          "incorrect": "El coche de mi amigo rojo es.",
+          "correct": "El coche de mi amigo es rojo.",
+          "id": 2
+        },
+        {
+          "incorrect": "El correo llegará rápido.",
+          "correct": "El correo llegará rápidamente.",
+          "id": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Practicamente todos los días",
+      "title": "Conjugación",
+      "palabra": "Saber",
+      "verbo": [
+        {
+          "tema": "Presente",
+          "yo": "sé",
+          "tu": "sabes",
+          "persona": "sabe",
+          "nosotros": "sabemos",
+          "vosotros": "sabéis",
+          "ellos": "saben"
+        },
+        {
+          "tema": "Imperfecto",
+          "yo": "sabía",
+          "tu": "sabías",
+          "persona": "sabiá",
+          "nosotros": "sabíamos",
+          "vosotros": "sabíais",
+          "ellos": "sabían"
+        },
+        {
+          "tema": "Pretérito",
+          "yo": "supe",
+          "tu": "supiste",
+          "persona": "supo",
+          "nosotros": "supimos",
+          "vosotros": "supisteis",
+          "ellos": "superion"
+        },
+        {
+          "tema": "Futuro",
+          "yo": "sabré",
+          "tu": "sabrás",
+          "persona": "sabrá",
+          "nosotros": "sabremos",
+          "vosotros": "sabréis",
+          "ellos": "sabran"
+        }
+      ]
+    }
+  ]
+}

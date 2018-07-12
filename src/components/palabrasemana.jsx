@@ -6,27 +6,10 @@ class PalabraSemana extends Component {
   
   constructor(props)  {
     super(props)
-    this.handleClick = this.handleClick.bind(this);
   }
-
-   state = {
-      definition: 'Acordar, pactar, decidir conjuntamente',
-      title: 'Concertar',
-      abrev: 'tr'
-   }
-
-   handleClick = (ev) => {
-      console.log(`this is: ${this.state.title} + ${this.props.imageSrc}` );
-      this.setState({
-        definition: 'Concordar o combinar una cosa con otra',
-        title: 'Otra palabra',
-        abrev: 'intr'
-      })
-   } 
    render() {
 
-      const {  imageSrc } = this.props;
-      const { title, abrev, definition } = this.state;
+      const { title, abrev, definition, imageSrc } = this.props;
 
       return (
       <div className='palabrasemana'>
@@ -42,7 +25,6 @@ class PalabraSemana extends Component {
       	</a>
       </div>
       );
-
    }
 }
 
@@ -50,7 +32,7 @@ PalabraSemana.propTypes = {
   title: PropTypes.string,
   definition: PropTypes.string,
   imageSrc: PropTypes.string,
-  abrev: PropTypes.oneOf(['tr', 'adj', 'deter', 'f', 'm', 'prnl', 'pron', 'subj', 'prep', 'irreg', 'intr'])
+  abrev: PropTypes.oneOf(['tr', 'adj', 'deter', 'f', 'm', 'prnl', 'pron', 'subj', 'prep', 'irreg', 'intr', 'tr y prnl'])
 };
 
 export default PalabraSemana;

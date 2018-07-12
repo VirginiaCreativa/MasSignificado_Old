@@ -1,12 +1,14 @@
 import React, {Component}  from 'react';
+import Main from './main.jsx'
 import PalabraSemana from './palabrasemana.jsx';
+import DataMain from './json/main.json';
 
 class App extends Component {
 	render() {
 		const primos = ['Virginia', 'Felipe', 'Santiago' ]
 		return(
 			<div>
-				<PalabraSemana imageSrc='https://source.unsplash.com/collection/356862/' />
+				<Main data={DataMain}/>
 			</div>
 		)
 	}
