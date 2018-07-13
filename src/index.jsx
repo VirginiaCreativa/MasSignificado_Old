@@ -1,7 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom';
-import App from './components/app.jsx'
+import Home from './screens/home.jsx'
 
-const appMain = document.getElementById('app');
 
-render(<App/>, appMain);
+const app = document.getElementById('app');
+
+render(<Home/>, app);

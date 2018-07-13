@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from"prop-types";
 
 class PalabraSemana extends Component {
-  
-  constructor(props)  {
-    super(props)
-  }
    render() {
 
       const { title, abrev, definition, imageSrc, topImage } = this.props;
