@@ -1,0 +1,36 @@
+
+header {
+	padding : 20px 40px;
+	
+	.logo {
+		.type {
+			position : relative;
+			left     : 3px;
+			color    : $blue_light;
+		}
+		h2 {
+			font-family : 'Vibur', cursive;
+			color       : $blue_dark;
+			text-shadow : 0px 0px 10px -1px rgba(0, 0, 0, 0.6);
+		}
+	}
+	ul.nav {
+		li {
+			.nav-link  {
+				color          : $gray_dark;
+				font-weight: 700;
+				font-size: 0.825em;
+				text-transform : uppercase !important;
+			}
+		}
+	}
+	.btnSearch {
+		cursor           : pointer;
+		background-color : transparent;
+		font-size        : 16px;
+		border           : none;
+		&:hover {
+			color : $blue_light;
+		}
+	}
+}
