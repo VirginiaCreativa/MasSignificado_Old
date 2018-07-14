@@ -9,9 +9,9 @@ export class EjemploGramatica_Stage extends Component {
     
     return (
       <div>
-        <div className="title_heading">
+        <div className="section-title">
           <h6>{description}</h6>
-          <h3>{title}</h3>
+          <h2>{title}</h2>
         </div>
         <div className="box_stage_ejemplogramatic">
           {

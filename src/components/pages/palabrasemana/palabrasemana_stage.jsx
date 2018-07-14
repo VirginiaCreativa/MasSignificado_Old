@@ -3,15 +3,15 @@ import PalabraSemana_Item from './palabrasemana_item.jsx'
 import './palabrasemana.scss'
 
 export class PalabraSemana_Stage extends Component {
-    render() {
+   render() {
 		
 		const { description, title, palabras} = this.props.data;
 
 		return (
 			<div>
-				<div className="title_heading">
+				<div className="section-title">
 					<h6>{description}</h6>
-					<h3>{title}</h3>
+					<h2>{title}</h2>
 				</div>
 				<div className="box_stage_palabrasemana">
 					{
@@ -22,7 +22,7 @@ export class PalabraSemana_Stage extends Component {
 				</div>
 			</div>
 		);
-    }
+   }
 }
 
 export default PalabraSemana_Stage;

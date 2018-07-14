@@ -9,12 +9,15 @@ class EjemploGramatica_Item extends Component {
       return (
       <div className='ejemplogramatica_item'>
       	<ul className='list-unstyled'>
-          <li className="incorrect"><ion-icon name="close"></ion-icon>{incorrect}
+          <li className="incorrect">
+            <ion-icon name="close"></ion-icon>
+            <p>{incorrect}</p>
           </li>
-          <li className="correct"><ion-icon name="checkmark"></ion-icon>{correct}
+          <li className="correct">
+            <ion-icon name="checkmark"></ion-icon>
+            <p>{correct}</p>
           </li>
         </ul>
-
       </div>
       );
    }

@@ -80,6 +80,11 @@
           "incorrect": "El correo llegará rápido.",
           "correct": "El correo llegará rápidamente.",
           "id": 3
+        },
+        {
+          "incorrect": "Es prohibida la entrada.",
+          "correct": "Está prohibida la entrada.",
+          "id": 4
         }
       ]
     },
