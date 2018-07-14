@@ -112,7 +112,7 @@ module.exports = {
 	    new HtmlWebpackPlugin({
 			filename: 'index.html',
 			template: 'src/index.html',
-			title: 'Question ABC',
+			title: 'Más significado',
 			minify: {
 				collapseWhitespace: true
 			}
