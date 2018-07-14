@@ -1,4 +1,4 @@
-
+/*==================== GENERAL ====================*/
 body {
 	font-family : 'Avenir LT Std';
 	font-weight : 400;
@@ -13,6 +13,25 @@ h1, h2, h3, h4, h5, h6 {
 	color : $blue_dark;
 	font-weight: 700;
 }
-p, a, li {
+p, a {
 	font-size : 0.8125rem !important;
+}
+/*==================== TITLE HEADING IN HOME ====================*/
+.title_heading {
+	position : relative;
+	margin   : 20px 0;
+	h6 {
+		margin-bottom : 4px;
+		font-size     : 13px;
+		font-weight   : 400;
+		color         : $gray_light;
+		
+	}
+	h3 {
+		position       : relative;
+		vertical-align : middle;
+		overflow       : hidden;
+		margin-bottom  : 0;
+		letter-spacing : -1px;
+	}
 }

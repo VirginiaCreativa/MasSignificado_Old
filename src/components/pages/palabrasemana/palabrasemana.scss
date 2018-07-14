@@ -1,0 +1,75 @@
+
+.box_stage_palabrasemana {
+	display               : grid;
+	overflow-x            : scroll;
+	white-space           : nowrap;
+	grid-column-gap       : 20px;
+	grid-template-columns : repeat(6, 1fr);
+	scroll-direction      : horizontal;
+}
+.palabrasemana_item {
+	width : 260px;
+	a {
+		&:hover {
+			.imagen {
+				.img-hover {
+					opacity : 0.5;
+				}
+			}
+			article {
+				h6 {
+					color : #ff5252;
+				}
+			}
+		}
+	}
+	.imagen {
+		position      : relative;
+		overflow      : hidden;
+		height        : 146px;
+		margin-bottom : 14px;
+		border-radius : 4px;
+		box-shadow    : 0 10px 40px -6px rgba(39, 57, 113, 0.4);
+		.img-hover {
+			position           : absolute;
+			top                : 0;
+			left               : 0;
+			height             : 100%;
+			width              : 100%;
+			opacity            : 0;
+			background-color   : #000;
+			-webkit-transition : all 0.3s ease-in-out;
+			transition         : all 0.3s ease-in-out;
+			.fa-play {
+				font-size : 40px;
+			}
+		}
+		img {
+			position : relative;
+			top      : 50px;
+			height   : auto;
+			width    : 100%;
+		}
+	}
+	article {
+		height      : auto;
+		text-align  : center;
+		white-space : pre-line;
+		h6 {
+			font-weight : 600;
+			color       : var(--dark);
+		}
+		p {
+			color : var(--gray);
+			.abrev {
+				margin-right     : 4px;
+				padding          : 4px;
+				background-color : $blue_light;
+				font-size        : 11px;
+				font-weight      : 500;
+				color            : #fff;
+				border-radius    : 2px;
+			}
+		}
+	}
+}

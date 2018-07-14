@@ -4,7 +4,7 @@
       "id": 1,
       "description": "Lo mejor de la semana",
       "title": "Palabra de la semana",
-      "palabra": [
+      "palabras": [
         {
           "title": "Transformar",
           "definition": "Hacer cambiar de forma o aspecto:",
@@ -88,7 +88,7 @@
       "description": "Practicamente todos los días",
       "title": "Conjugación",
       "palabra": "Saber",
-      "verbo": [
+      "verbos": [
         {
           "tema": "Presente",
           "yo": "sé",

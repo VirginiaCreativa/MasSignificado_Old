@@ -68,12 +68,18 @@ module.exports = {
 		        		loader: "css-loader",
 		        		options: { 
 		        			minimize: true,
-                            sourceMap: true
+                     sourceMap: true
 		        		}
 		        	},
 		        	{
 		        		loader: "sass-loader"
-		        	}
+		        	}, 
+		        	{
+						loader: 'sass-resources-loader',
+			          options: {
+			            resources: ['./src/style/_variables.scss', './src/style/global.scss'],
+						}
+		        	}	
 	        	]
 		      
 			},
