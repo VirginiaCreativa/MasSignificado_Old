@@ -27,9 +27,9 @@ class Header extends Component {
 									<a className="nav-link" href="#">Conjugación</a>
 								</li>
 								<li className="nav-item">
-									<button className='btnSearch'>
-										<ion-icon name="search"></ion-icon>
-									</button>
+									<form id="search">
+										<input type="search"/>
+									</form>
 								</li>
 							</ul>
 						</div>

@@ -2,6 +2,15 @@
 header {
 	padding : 20px 40px;
 	
+	// .btnSearch {
+	// 	cursor           : pointer;
+	// 	background-color : transparent;
+	// 	font-size        : 18px;
+	// 	border           : none;
+	// 	&:hover {
+	// 	outline          : none;
+	// 		color : $blue_light;
+	
 	.logo {
 		.type {
 			position : relative;
@@ -19,31 +28,51 @@ header {
 	ul.nav {
 		li {
 			.nav-link  {
-				position       : relative;
-				top            : 4px;
 				font-size      : 0.825em;
 				font-weight    : 700;
 				color          : var(--dark);
 				text-transform : uppercase !important;
+				padding: 19px;
 				&:hover {
 					color : $blue_light;
 				}
 			}
 		}
 	}
-	.btnSearch {
-		cursor           : pointer;
-		background-color : transparent;
-		font-size        : 18px;
-		border           : none;
-		&:hover {
-		outline          : none;
-			color : $blue_light;
-			
-		}
-		ion-icon {
-			position : relative;
-			top      : 10px;
+	// 	}
+	// 	ion-icon {
+	// 		position : relative;
+	// 		top      : 10px;
+	// 	}
+	// }
+	#search {
+		padding: 10px 0;
+		input[type=search] {
+			width              : 15px;
+			padding            : 4px 0 4px 4px;
+			font-family        : inherit;
+			font-size          : 100%;
+			color              : transparent;
+			border             : 1px solid #FFF;
+			outline            : none;
+			-webkit-transition : all .5s;
+			-moz-transition    : all .5s;
+			transition         : all .5s;
+			-webkit-appearance : textfield;
+			-webkit-box-sizing : content-box;
+			background: url(https://png.icons8.com/ios-glyphs/50/000000/search.png) no-repeat 0 center;
+			background-size: 20px;
+			cursor: pointer;
+			&:focus {
+				width         : 130px;
+				padding-left  : 24px;
+				cursor        : auto;
+				color         : var(--dark);
+				border-top    : 1px solid #FFF;
+				border-right  : 1px solid #FFF;
+				border-bottom : 1px solid #ccc;
+				border-left   : 1px solid #FFF;
+			}
 		}
 	}
 }
