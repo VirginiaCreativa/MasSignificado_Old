@@ -1,0 +1,54 @@
+
+footer {
+	height           : 405px;
+	padding          : 80px 0;
+	background-color : #333;
+	font-size        : 0.875em !important;
+	color            : #fff;
+	.section_content {
+		h5 {
+			margin-bottom : 40px;
+			color         : #fff;
+		}
+		a, p {
+			color : $gray_light;
+		}
+		.footer_icons {
+			a {
+				&:hover {
+					color : $blue_light;
+				}
+				ion-icon {
+					margin    : 0 6px;
+					font-size : 1.375em;
+				}
+			}
+		}
+		.instagram-img {
+			li {
+				float    : left;
+				overflow : hidden;
+				width    : 33.33%;
+				padding  : 5px;
+				a {
+					img {
+						max-width        : 100%;
+						background-color : $gray_light;
+					}
+				}
+			}
+		}
+	}
+	.footer_bottom {
+		margin-top     : 60px;
+		padding-top    : 17px;
+		padding-bottom : 17px;
+		border-top     : 1px solid #3c3c3c;
+		p {
+			font-size  : 0.875em !important;
+			color      : $gray_light;
+			text-align : center;
+			margin-bottom: 0;
+		}
+	}
+}
