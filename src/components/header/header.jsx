@@ -7,12 +7,12 @@ class Header extends Component {
 			<header>
 				<div className="container">
 					<div className="row">
-						<div className="col-6">
+						<div className="col-md-3 col-xs-3">
 							<div className="logo">
 								<h2><span className='type'>más</span>significado</h2>
 							</div>
 						</div>
-						<div className="col-6">
+						<div className="col-md-9 col-xs-9">
 							<ul className="nav justify-content-end">
 								<li className="nav-item">
 									<a className="nav-link active" href="#">Home</a>
