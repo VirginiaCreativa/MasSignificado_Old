@@ -1,0 +1,49 @@
+
+header {
+	padding : 20px 40px;
+	
+	.logo {
+		.type {
+			position : relative;
+			left     : 3px;
+			color    : $blue_light;
+		}
+		h2 {
+			margin-bottom : 0;
+			font-family   : 'Vibur', cursive;
+			font-size     : 2.2rem;
+			color         : $blue_dark;
+			text-shadow   : 0px 0px 10px -1px rgba(0, 0, 0, 0.6);
+		}
+	}
+	ul.nav {
+		li {
+			.nav-link  {
+				position       : relative;
+				top            : 4px;
+				font-size      : 0.825em;
+				font-weight    : 700;
+				color          : var(--dark);
+				text-transform : uppercase !important;
+				&:hover {
+					color : $blue_light;
+				}
+			}
+		}
+	}
+	.btnSearch {
+		cursor           : pointer;
+		background-color : transparent;
+		font-size        : 18px;
+		border           : none;
+		&:hover {
+		outline          : none;
+			color : $blue_light;
+			
+		}
+		ion-icon {
+			position : relative;
+			top      : 10px;
+		}
+	}
+}
