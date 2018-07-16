@@ -101,7 +101,9 @@
           "persona": "sabe",
           "nosotros": "sabemos",
           "vosotros": "sabéis",
-          "ellos": "saben"
+          "ellos": "saben",
+          "id" : 1
+
         },
         {
           "tema": "Imperfecto",
@@ -110,7 +112,8 @@
           "persona": "sabiá",
           "nosotros": "sabíamos",
           "vosotros": "sabíais",
-          "ellos": "sabían"
+          "ellos": "sabían",
+          "id" : 2
         },
         {
           "tema": "Pretérito",
@@ -119,7 +122,8 @@
           "persona": "supo",
           "nosotros": "supimos",
           "vosotros": "supisteis",
-          "ellos": "superion"
+          "ellos": "superion",
+          "id" : 3
         },
         {
           "tema": "Futuro",
@@ -128,7 +132,8 @@
           "persona": "sabrá",
           "nosotros": "sabremos",
           "vosotros": "sabréis",
-          "ellos": "sabran"
+          "ellos": "sabran",
+          "id" : 4
         }
       ]
     }

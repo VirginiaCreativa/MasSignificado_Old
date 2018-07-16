@@ -7,16 +7,16 @@ class Conjugacion_Item extends Component {
 
       return (
       <div className='conjugacion'>
-      	<div className="item_verbo">
-          <h3>{tema}</h3>
+      	<div className="items_verbos">
+          <h4 className='item_indicativo'>{tema}</h4>
           <div className="item_verbo">
-          <p className="graytxt">{yo}</p>
-          <p className="graytxt">{tu}</p>
-          <p className="graytxt">{persona}</p>
-          <p className="graytxt">{nosotros}</p>
-          <p className="graytxt">{vosotros}</p>
-          <p className="graytxt">{ellos}</p>
-        </div>
+            <p className="verbtxt">{yo}</p>
+            <p className="verbtxt">{tu}</p>
+            <p className="verbtxt">{persona}</p>
+            <p className="verbtxt">{nosotros}</p>
+            <p className="verbtxt">{vosotros}</p>
+            <p className="verbtxt">{ellos}</p>
+          </div>
         </div>
       </div>
       );

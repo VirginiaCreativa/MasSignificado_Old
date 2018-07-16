@@ -13,11 +13,12 @@ export class Conjugacion_Stage extends Component {
         <h6 >{description}</h6>
         <h2>{title}</h2>
       </div>
-      <div className="item_palabra">
-        <h4>{palabra}</h4>
+      <div className="item_title_palabra">
+        <h4><ion-icon name="return-right"></ion-icon>{palabra}</h4>
       </div>
       <div className="box_stage_conjugacion">
-        <div className="item_verbo">
+        <div className="item_person">
+          <p className="graytxt space">&ensp;</p>
           <p className="graytxt">Yo</p>
           <p className="graytxt">Tú</p>
           <p className="graytxt">Él/Ella/Usted</p>
